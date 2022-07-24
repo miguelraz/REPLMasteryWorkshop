@@ -84,7 +84,7 @@ snek = """
       X   X  XXXXXX  X 
       XXXXX          X 
                      X🍎
-"""
+""";
 ```
 
 Remember:
