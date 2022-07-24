@@ -78,8 +78,8 @@ Moving around with arrow keys is fine, but there's so much more power to learnin
 ```julia
 # Try and make it to the apple!
 snek = """
-🐍XXXXX             XX   
-    XXX   XXXX    X  X 
+🐍XXXXX           XXXX   
+      X   XXXX    X  X 
       X   X  X    X  X 
       X   X  XXXXXX  X 
       XXXXX          X 
