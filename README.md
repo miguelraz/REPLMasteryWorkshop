@@ -213,6 +213,8 @@ You're about to learn a *very* powerful tip: Just about everything you can touch
 ```julia
 using Lin<TAB> 
 par<TAB>
+parse(<TAB>) # Shows all methods
+parse(Int, <TAB>) # Narros to all methods that start with Int!
 fi<TAB>
 String.<TAB>
 lines = readlines("file<TAB>")
@@ -248,10 +250,10 @@ Run this line:
 # Horrible, horrible Julia 🤮
 function hamming(s1, s2)
     counter = 0
-    length(s1) == length(s2) || break
+    length(s1) == length(s2) || return -1
     for i in 1:length(s1)
         if s1[i] != s2[i]
-            counter = counter = 1
+            counter = counter + 1
         end
     end
     return counter
@@ -279,7 +281,7 @@ Run this line:
         end
     OOPS end
     return COUNTER                        # meta+l
-    length(s1) == length(s2) || breka     # Ctrl+T, then meta-Up
+    length(s1) == length(s2) || erturn -1     # Ctrl+T, then meta-Up
                     OOPS end              # meta-Left
 ```
 It seems a very dedicated cat 🐈 ran across our keyboard (and maliciously inverted the length check???). The following should be useful for getting rid of may of those mistakes:
@@ -347,7 +349,7 @@ hamming(s1, s2) = mapreduce(!=, +, s1, s2)
 ```
 or this
 ```julia
-@doc "Also clever insight" hammingo
+@doc "Also clever insight" hamming
 ```
 
 But there's many kinds of "markup" that the Julia REPL allows.
@@ -358,6 +360,7 @@ Try adding:
 - julia examples 
 - bolded text
 - a part that says `# Extended help` and then running `??parse` 👀
+- `?DataFrames` - if you don't have a docstring for your main Module, it will just display your repo's `README.md`.
 
 (Hint: Look at `?parse` and try and find all the doc comments with `@edit parse(Int, "123")`)
 
@@ -378,7 +381,7 @@ To find all docstrings that contain `arg` followed by a number.
 
 Try this
 ```julia
-?> 'c'
+julia> 'c'
 ```
 
 Julia will kindly show you the Unicode character representation of whatever character you input.
@@ -391,9 +394,6 @@ Try this:
 "∂" can be typed by \partial<tab>
 ```
 This is called reverse latex/emoji lookup! If you come across a weird symbol, you can just ask Julia how to type it.
-
-`??` Extended help
-
 
 #### Shell mode
 

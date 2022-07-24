@@ -5,6 +5,7 @@ version = "0.1.0"
 
 [deps]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
 Eyeball = "ce36242b-ad83-4f84-8519-47cd8aeefd60"
 JuliaCon = "bfca5e61-7ca9-4d61-a82b-6df663fb0d3c"
