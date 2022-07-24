@@ -3,6 +3,21 @@ uuid = "a1747281-e4fc-45cd-8747-3ebf606d4dc3"
 authors = ["miguelraz <miguelraz@ciencias.unam.mx> and contributors"]
 version = "0.1.0"
 
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+Eyeball = "ce36242b-ad83-4f84-8519-47cd8aeefd60"
+JuliaCon = "bfca5e61-7ca9-4d61-a82b-6df663fb0d3c"
+Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+PortAudio = "80ea8bcb-4634-5cb3-8ee8-a132660d1d2d"
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
+TerminalPager = "0c614874-6106-40ed-a7c2-2f1cd0bff883"
+TheFix = "d833ac1a-14c4-4847-a042-dd2b1840831c"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+VideoInTerminal = "fe78766d-d86f-4def-9738-c8aafeffc8a7"
+
 [compat]
 julia = "1"
 
