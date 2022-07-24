@@ -145,13 +145,14 @@ b = collect(1:1e6)
 We've already seen a few `Ctrl`s here and there, but there's a few more where you might not have expected them. Again, [please do read the manual and try them out](https://docs.julialang.org/en/v1/stdlib/REPL/#Key-bindings) (even if they are classic Emacs key chords, I know.)
 * `meta+<`/`meta+>` change to your first/last entry in this REPL session
 * `meta+Backspace` delete the previous word, like the following `Mushrooms`
+* `Ctrl+Right`/`Ctrl+Left` will skip over an entire word
 
 ```
 words = """
 Badger Badger Badger Mushroom 
 Badger Badger Mushroom Badger
 Badger Mushroom Badger Mushroom 
-"""
+""";
 ```
 
 or the spurious `TODO` here:
