@@ -13,7 +13,7 @@ hours of productive coding time over their careers should they attend this works
 
 ### Plan for the material that will be covered:
 
-1. Download Julia from [julialang.org](julialiang.org).
+1. Download Julia from [julialang.org](https://julialang.org).
 2. Click/open the executable to pull up the `JuliaREPL`
 3. If you need colors (like I do), type this in:
 ```julia-repl
