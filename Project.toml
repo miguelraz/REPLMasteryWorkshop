@@ -20,6 +20,7 @@ UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 VideoInTerminal = "fe78766d-d86f-4def-9738-c8aafeffc8a7"
 
 [compat]
+TerminalPager = "0.4"
 julia = "1"
 
 [extras]
